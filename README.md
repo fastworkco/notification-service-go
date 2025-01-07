@@ -5,7 +5,7 @@ You are going to implement a notification service that will send notifications t
 For example, on an e-commerce platform, when a buyer purchases a product, the notification service should send both email and push notifications to the seller.
 
 
-![Untitled-2024-06-19-1904 (2)](https://gist.github.com/assets/9070844/8c9c0304-0443-4a9b-b159-634cc3c0d5c3)
+![image](https://github.com/user-attachments/assets/7419fe4f-9e78-4da1-b81b-9fea28cbf9fc)
 
 
 ## Target events
