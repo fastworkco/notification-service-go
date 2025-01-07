@@ -1,0 +1,10 @@
+port: ":8080"
+database_url: "postgres://user:password@localhost:5432/notification_service"
+
+email:
+  provider_a: "ProviderA"
+  provider_b: "ProviderB"
+
+push:
+  provider_a: "PushProviderA"
+  provider_b: "PushProviderB"

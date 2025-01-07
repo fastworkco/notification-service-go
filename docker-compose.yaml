@@ -1,0 +1,22 @@
+networks:
+  notification_network:
+    driver: bridge
+
+services:
+  postgres:
+    image: postgres:15.3
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: notification_user
+      POSTGRES_PASSWORD: notification_password
+      POSTGRES_DB: notification_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - notification_network
+
+volumes:
+  postgres_data:
